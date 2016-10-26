@@ -1,0 +1,378 @@
+<!doctype>
+<html>
+<head>
+    <title>Balaji Venkateswaran</title>
+    <style>
+        #menubar{
+            background: #f1f1f1;   
+            height: 100px;  
+            width: 1250px;
+            margin-left: 50px;
+        }
+        #menubar >p{
+            font-size: 30px;
+            color:#182153;
+            font-family: sans-serif;
+            transition-property: color;
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            margin-left: 40px;  
+            padding-top:30px;
+        }
+        #menubar >p:hover{
+            opacity: 0.3;
+        }
+        ul li:hover{
+            opacity: 0.4;
+        }
+        ul li{
+            display: inline;
+            font-size: 18px;
+            font-family:sans-serif;
+            margin-right: 60px;
+            float:right;
+            position: relative;
+            right: 100px;
+            top:-30px;
+            color:#182153;
+            font-weight: 700;
+            transition: color,0.4s,ease,0s;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            width: 1250px;
+            height: 500px;
+            margin-left: 50px;
+        }
+        #details{
+            background: #f1f1f1;
+        }
+        #details > img{
+            width: 470px;
+            height: 470px;
+            position:absolute;
+            float:left;
+            top:138px;
+            margin-left: 250px;
+        }
+        #details_text{
+            position: absolute;
+            float:left;
+            top:140px; 
+            background:#f1f1f1;
+            width: 470px;
+            height: 470px;
+            margin-left: 720px; 
+            
+        }
+        .one{
+            text-align:justify;
+            margin-left:100px; 
+        }
+        h1,h4{
+            font-family: sans-serif;
+            color:#182153;
+            border:0px;
+            padding:0px;
+        }
+        p{
+            font-family: sans-serif;
+            color:#182153;
+            border:0px;
+            padding-top:5px;
+            
+            
+        }
+        #wrap1{
+           
+            background:#f1f1f1;
+            max-width: 1250px;
+            /*padding:25px 25px 0;*/
+            height: 220px;
+            margin-left: 50px;
+        }
+        h2{
+            line-height: 43px;
+            font-size: 30px;
+            color:#182153;
+            font-family:sans-serif;
+            margin-left: 400px;
+            border-bottom: solid 1px #b8b3d6;
+          
+        }
+        #wrap1 > p{
+            color:#9d9fa2;
+            font-family: Arial;
+            font-size:20px;
+            text-align: center;
+            padding: 10px;
+        }
+        #experience{
+          
+            background:#f1f1f1;
+            max-width: 1250px;
+            height: 300px;
+            margin-left: 50px;
+        }
+       
+      
+        #expone{
+            margin-left:450px;
+            height:200px;
+            border-right: solid 1px black;
+            width: 150px;
+            color:#9d9fa2;
+            font-family: Arial;
+        }
+        
+        #eone{
+            float:right;
+            width:300px;
+            position: relative;
+            top:-220px;
+            right: 320px;
+            color:#9d9fa2;
+            font-family: Arial;
+        }
+        #etwo{
+           float:right;
+            width:300px;
+            white-space:pre-wrap;
+            position: relative;
+            top:-140px;
+            right: 20px;
+            color:#9d9fa2;
+            font-family: Arial;
+        
+        }
+        #education{
+           
+            background:#f1f1f1;
+            max-width: 1250px;
+            height: 300px;
+            margin-left: 50px;
+        }
+        #skills{
+            
+            background:#f1f1f1;
+            max-width: 1250px;
+            /*padding:25px 25px 0;*/
+            height: 300px;
+            margin-left: 50px;
+        }
+        #ones{
+            margin-left:200px;
+        }
+        #java{
+            background: #6b77ef;
+            width:400px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #android{
+            background: #6b77ef;
+            width:300px;
+            height: 30px;
+            border-radius: 5px; 
+        }
+         #springs{
+            background: #6b77ef;
+            width:250px;
+            height: 30px;
+            border-radius: 5px; 
+        }
+        #ones p{
+            text-align: center;
+            font-family: Arial;
+            font-weight: 500;
+            color:white;
+        }
+        #twos{
+            margin-left: 200px;
+            float: right;
+            position: relative;
+            right:100px;
+            top:-140px;
+        }
+        #html{
+            background: #6b77ef;
+            width:500px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #css{
+             background: #6b77ef;
+            width:450px;
+            height: 30px;
+            border-radius: 5px; 
+        }
+        #js{
+             background: #6b77ef;
+            width:350px;
+            height: 30px;
+            border-radius: 5px; 
+        }
+         #twos p{
+            text-align: center;
+            font-family: Arial;
+            font-weight: 500;
+            color:white;
+        }
+        #contacts{
+            
+            background:#f1f1f1;
+            max-width: 1250px;
+            height: 340px;
+            margin-left: 50px; 
+        }
+        .condetails {
+              max-width: 400px;
+              width: 100%;
+              margin-left:150px;
+              position: relative;
+              
+        }
+        ::-webkit-input-placeholder {
+            color: #888;
+        }
+        #contact button  {
+          width: 100%;
+          border: none;
+          background: #4CAF50;
+          color: #FFF;
+          margin: 0 0 5px;
+          padding: 10px;
+          font-size: 15px;
+        }
+        #contact input,
+        #contact textarea {
+              width: 100%;
+              border: 1px solid #ccc;
+              background: #FFF;
+              margin: 0 0 5px;
+              padding: 10px;
+        }
+        #contact2{
+            float:right;
+            position: relative;
+            top:-260px;
+            right: 350px;
+        }
+        #footer >p{
+            margin-left:400px;  
+            font-weight: 500;
+    
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div id="menubar">
+            <p>Balaji Venkateswaran</p>
+            <ul>
+                <li><a href="#contacts">Contact Us</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </div>
+        <div>
+            <div><img src="Back.jpg"></div>
+            <div id="details"> 
+                <img src="developer.jpeg">
+            </div>
+            <div id="details_text">
+                <div class="one">
+                    <h1>Balaji Venkateswaran</h1>
+                    <p>Java Developer</p>
+                </div>
+                <div class="one">
+                    <h4>Mail</h4>
+                    <p>balajiivenkateswaran@gmail.com</p>
+                </div>
+                <div class="one">
+                    <h4>Phone</h4>
+                    <p>9490017854</p>
+                </div>
+                <div class="one">
+                    <h4>Date of Birth</h4>
+                    <p>June 22nd, 1994</p>
+                </div>
+            </div>
+        </div>
+        <div id="wrap1">
+            <div><h2>I'm Balaji Venkateswaran</h2></div>
+            <p id="content">Hi I am Balaji working as Developer in AndhraPradesh Skill Development corporation I had good knowledge in Java Android and Web Technologies like HTML,HTML5,Javascript and Jquery.I am a confident and responsible individual committed to deliver the best. I believe strongly that my learning attitude and ability to collaborate as a team along with a deep sense of professionalism in the work I do, help me to push barriers and further boundaries.</p>
+        </div>
+        <div id="experience">
+            <div><h2>Experience</h2></div>
+            <div id="exp">
+                <div id="expone">
+                    <p><b>2015-Present</b></p><p>Java Developer</p>
+                    <p><b>Intership</b></p><p>Android Developer</p></div>
+                <div id="exptwo">
+                    <p id="eone">Started my career as Java Developer in AndhraPradesh Skill Development Corporation  </p> 
+                    <p id="etwo">Actively Participated in Intership on Android and developed small applications in android</p>
+                   
+                </div>
+            </div>
+        </div>
+        <div id="education">
+            <div><h2>Education</h2></div>
+            <div id="exp">
+                <div id="expone">
+                    <p><b>2011-2015</b></p><p>Bachelor's Degree</p>
+                    <p><b>2009-2011</b></p><p>High School</p></div>
+                <div id="exptwo">
+                    <p id="eone">SRK INSTITUTE OF TECHNOLOGY Computer Science And Engineering</p> 
+                    <p id="etwo">Sri Chaitanya Junior College</p>
+                   
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <div><h2>Skills</h2></div>
+            <div id="ones">
+                <div id="java"><p>Java</p></div>
+                <div id="android"><p>Android</p></div>
+                <div id="springs"><p>Springs</p></div>
+            </div>
+            <div id="twos">
+                <div id="html"><p>HTML</p></div>
+                <div id="css"><p>CSS</p></div>
+                <div id="js"><p>Javascript</p></div>
+            </div>
+        </div>
+        <div id="contacts">
+            <div><h2>Contacts</h2></div>
+            <div class="condetails">  
+                  <form id="contact">
+                    
+                      <input placeholder="Your name" type="text"  required autofocus>
+                      <input placeholder="Your Email Address" type="email"  required>
+                      <input placeholder="Your Phone Number (optional)" type="tel"  required>
+                      <textarea placeholder="Type your message here...."  required></textarea>
+                      <button name="submit" type="submit" id="contact-submit">Submit</button>
+                   
+                  </form>
+            </div>
+            <div id="contact2">
+                <p><b>Balaji Venkateswaran</b></p>
+                <p><b>Java Developer</b></p>
+                <p><b>Phone</b></p>
+                <p>+91-9490017854</p>
+                <p><b>Email</b></p>
+                <p>balajiivenkateswaran@gmail.com</p>
+               
+            </div>
+             <div id="footer">
+                    <p>Designed By Balaji Venkateswaran Java Developer @APSSDC</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
